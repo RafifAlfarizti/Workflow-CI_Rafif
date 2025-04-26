@@ -25,4 +25,4 @@ jobs:
 
     - name: Run MLflow Project
       run: |
-        mlflow run mlflow_project
+        mlflow run https://github.com/RafifAlfarizti/Workflow-CI_Rafif.git#subdir=MLProject
