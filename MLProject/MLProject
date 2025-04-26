@@ -3,5 +3,7 @@ name: MLProject
 entry_points:
   main:
     parameters:
-      learning_rate: {type: float, default: 0.01}
+      learning_rate:
+        type: float
+        default: 0.01
     command: "python modeling.py --learning_rate {learning_rate}"
