@@ -1,4 +1,4 @@
-name: example-mlflow-project
+name: MLProject
 
 entry_points:
   main:
