@@ -25,4 +25,4 @@ jobs:
 
     - name: Run MLflow Project
       run: |
-        mlflow run "cd D:\Laskar AI\Membangun Sistem Machine Learning\Workflow-CI\MLProject"
+        mlflow run ./Workflow-CI/MLProject
