@@ -25,4 +25,4 @@ jobs:
 
     - name: Run MLflow Project
       run: |
-        mlflow run ./Workflow-CI/MLProject
+        mlflow run ./Workflow-CI/MLProject --no-conda
