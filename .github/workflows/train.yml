@@ -23,7 +23,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install mlflow numpy pandas scikit-learn scipy psutil
 
-      - name: Run MLflow Project (Local)
+      - name: Run MLflow Project from Correct Local Path
+        working-directory: ./Workflow-CI/MLProject
         run: |
-          cd Workflow-CI/MLProject
           mlflow run . --no-conda
