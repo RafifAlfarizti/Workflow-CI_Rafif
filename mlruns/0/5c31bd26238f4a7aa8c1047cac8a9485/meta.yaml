@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI_Rafif/Workflow-CI_Rafif/mlruns/0/5c31bd26238f4a7aa8c1047cac8a9485/artifacts
+end_time: 1748620549821
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5c31bd26238f4a7aa8c1047cac8a9485
+run_name: omniscient-smelt-784
+run_uuid: 5c31bd26238f4a7aa8c1047cac8a9485
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1748620540149
+status: 3
+tags: []
+user_id: runner
